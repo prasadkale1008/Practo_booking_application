@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic Appointment Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Book-My-Diagnostic.png" alt="Book-My-Diagnostic" class="logo">
+        <h1>Book My Diagnostic</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#lab-tests">Lab Tests</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#login">Login/Registration</a>
+        </nav>
+    </header>
+
+    
+
+    <!-- Lab Tests Section -->
+    <section id="lab-tests">
+        <h2>Lab Tests Available</h2>
+        <div class="test-container">
+            <!-- Test 1 -->
+            <div class="test-card">
+                <img src="Blood-test.jpeg" alt="Blood-test">
+                <h3>Blood Test</h3>
+                <p>Price: ₹750</p>
+                <button onclick="bookTest('Blood Test')">Book Now</button>
+            </div>
+            <!-- Test 2 -->
+            <div class="test-card">
+                <img src="complete-urine-examination.jpg" alt="Urine-Test">
+                <h3>Urine Test</h3>
+                <p>Price: ₹800</p>
+                <button onclick="bookTest('Urine Test')">Book Now</button>
+            </div>
+            <!-- Test 3 -->
+            <div class="test-card">
+                <img src="Covid.jpeg" alt="Covid-Test">
+                <h3>Covid Test</h3>
+                <p>Price: ₹500</p>
+                <button onclick="bookTest('Covid Test')">Book Now</button>
+            </div>
+            <!-- Test 4 -->
+            <div class="test-card">
+                <img src="X-ray.jpeg" alt="X-ray Test">
+                <h3>X-ray Test</h3>
+                <p>Price: ₹700</p>
+                <button onclick="bookTest('X-ray Test')">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@BookMyDiagnostic.com</p>
+    <p>Phone: +91 8483897278</p>
+    <p>Address:Near Siddhivinayak Temple, Mohan Nagar, Pune, India</p>
+
+    <h3>Follow Us</h3>
+    <div class="social-media">
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="Instagram.jpeg" alt="Instagram" class="social-icon"> Instagram
+        </a>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="Facebook.png" alt="Facebook" class="social-icon"> Facebook
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="Twitter.png" alt="X" class="social-icon"> X (formerly Twitter)
+        </a>
+    </div>
+</section>
+
+
+    <!-- Login & Registration Section -->
+    <section id="login">
+        <h2>Login / Register</h2>
+        <div class="form-container">
+            <!-- Login Form -->
+            <div class="form-box">
+                <h3>Login</h3>
+                <form id="loginForm">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form-box">
+                <h3>Register</h3>
+                <form id="registerForm">
+                    <label for="reg-username">Username</label>
+                    <input type="text" id="reg-username" required>
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>Book-My-Diagnostic</strong>, your one-stop solution for reliable and fast diagnostic services. Our goal is to provide affordable and convenient health tests that cater to your well-being.</p>
+        <p>We believe in empowering individuals to take control of their health by offering a wide range of medical tests from the comfort of their homes. At BookMyTest, we understand that your time and health are precious, which is why we bring state-of-the-art diagnostic services to you.</p>
+
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li>Certified and experienced diagnostic professionals.</li>
+            <li>Accurate and fast results, available online.</li>
+            <li>Affordable pricing with no hidden costs.</li>
+            <li>Convenient home collection for select tests.</li>
+            <li>Cutting-edge technology to ensure high-quality testing.</li>
+            <li>Multiple lab test packages tailored for your needs.</li>
+        </ul>
+
+        <h3>Our Mission</h3>
+        <p>Our mission is to make quality healthcare accessible to everyone. By utilizing modern technology and experienced professionals, we aim to reduce the barriers between patients and the healthcare services they need.</p>
+
+        <h3>Our Vision</h3>
+        <p>We envision a world where diagnostic tests are hassle-free, accessible to everyone, and lead to healthier lifestyles through early detection and better management of diseases.</p>
+
+        <h3>Accreditation</h3>
+        <p>BookMyTest is accredited by leading health authorities and follows the strictest guidelines to ensure that our lab results are accurate and trusted by doctors nationwide.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

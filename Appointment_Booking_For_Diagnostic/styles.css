@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: rgb(241, 16, 16);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    flex-grow: 1;
+    margin-left: 20px;
+    color: white; 
+}
+
+nav a {
+    margin: 0 15px;
+    color: rgb(244, 244, 18); 
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+/* Lab Test Cards */
+.test-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.test-card {
+    background-color: rgb(83, 202, 146);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.test-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.test-card h3 {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Form Container for Login and Registration */
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.form-box h3 {
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Social Media Links */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #4CAF50; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.social-media a:hover {
+    color: #45a049;
+}
+
+/* About Us Section */
+#about {
+    background-color: black; 
+    color: white; 
+    padding: 50px;
+    text-align:justify;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#about h2{
+    text-align: center;
+    color:white;
+}
+
+/* Contact Us Section */
+#contact {
+    background-color: #fce4ec; 
+    padding: 50px;
+    text-align:center;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; 
+}
